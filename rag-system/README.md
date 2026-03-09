@@ -1,1 +1,2 @@
- rag-system diagrams and system design documentation.
+Retrieval-Augmented Generation engine responsible for semantic search,
+context retrieval, and LLM prompt orchestration.
