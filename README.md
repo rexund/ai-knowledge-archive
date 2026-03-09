@@ -24,6 +24,10 @@ The system emphasizes privacy-first architecture with the ability to run core AI
 
 ![AI Knowledge Archive System Architecture](docs/ai_knowledge_archive_architecture.png)
 
+## Retrieval-Augmented Generation (RAG) Pipeline
+
+![RAG Pipeline](docs/rag_pipeline_diagram.png)
+
 ## Key Capabilities
 
 • Automatic speech transcription of archived recordings  
