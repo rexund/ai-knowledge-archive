@@ -2,84 +2,57 @@
 
 Capstone project: AI-assisted archival system for preserving and interacting with large collections of recorded knowledge.
 
-An AI-powered knowledge system designed to preserve and make searchable large collections of recorded lectures and written materials.
+An AI-powered knowledge system designed to transform recorded lectures and written works into a searchable, multilingual knowledge platform using speech transcription, semantic indexing, and retrieval-augmented generation.
 
-The project combines speech transcription, semantic search, and large language models to create an interactive knowledge interface for educational archives.
+## Project Overview
 
----
+This project builds an AI-assisted archival system capable of converting audio recordings and written materials into a searchable knowledge interface.
 
-## Project Goals
+The system integrates modern AI technologies to enable users to search, navigate, and interact with archived teachings through natural language queries.
 
-This system converts large audio archives into searchable knowledge systems that allow users to:
+The platform is designed to support:
 
-• search transcripts and audio simultaneously  
-• jump directly to relevant moments in recordings  
-• ask natural language questions about the archive  
-• generate contextual answers grounded in original recordings  
+• large audio archives  
+• searchable transcripts  
+• semantic knowledge retrieval  
+• AI-assisted question answering  
+• multilingual accessibility  
 
-The platform is designed with strong emphasis on **accessibility, preservation, and data privacy**.
-
----
+The system emphasizes privacy-first architecture with the ability to run core AI models locally.
 
 ## System Architecture
 
-The system consists of several layers:
+![AI Knowledge Archive System Architecture](docs/ai_knowledge_archive_architecture.png)
 
-### Data Ingestion
+## Key Capabilities
 
-- audio digitization
-- OCR for printed works
-- metadata extraction
-
-### Transcription Pipeline
-
-- speech-to-text processing
-- transcript alignment with timestamps
-- text preprocessing
-
-### Knowledge Indexing
-
-- full-text search
-- semantic embeddings
-- vector database indexing
-
-### AI Retrieval System
-
-- Retrieval Augmented Generation (RAG)
-- contextual knowledge retrieval
-- prompt orchestration
-
-### Multimodal Interface
-
-- synchronized audio and transcript playback
-- multilingual translation
-- voice synthesis
-- avatar interface
-
----
-
-## Example Use Cases
-
-• Search thousands of hours of recorded lectures instantly  
-• Ask natural language questions about archived teachings  
-• Create searchable study playlists  
-• Provide accessibility through transcripts and multilingual subtitles
-
----
+• Automatic speech transcription of archived recordings  
+• Timestamp-aligned transcripts for audio navigation  
+• Full-text and semantic search across archive content  
+• AI-powered question answering grounded in source material  
+• Multilingual translation and accessibility support  
+• Voice synthesis and avatar-based interaction  
 
 ## Technology Stack (Planned)
 
 Python  
-Speech-to-text models (Whisper or similar)  
-Vector databases (FAISS / Chroma)  
-LLM orchestration frameworks  
+Speech-to-text models  
+Vector databases  
+Retrieval-Augmented Generation (RAG) frameworks  
 Local LLM deployment  
-Web interface for search and playback
+Web-based search interface  
 
----
+## Repository Structure
+
+- `architecture/` — system diagrams and design documentation  
+- `data-pipeline/` — ingestion and media preparation workflows  
+- `transcription/` — speech-to-text and transcript alignment workflows  
+- `rag-system/` — semantic retrieval and LLM orchestration components  
+- `interface/` — user-facing search, playback, and multimodal interaction layer  
+- `docs/` — project documentation, diagrams, and planning materials  
 
 ## Project Status
 
 Architecture and research phase.
 
-This repository will document the development of a full AI knowledge retrieval system designed for large archival collections.
+This repository documents the development of an AI-powered knowledge retrieval system designed for large archival collections.
