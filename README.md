@@ -20,6 +20,8 @@ The platform is designed to support:
 
 The system emphasizes privacy-first architecture with the ability to run core AI models locally.
 
+Capstone project: AI system for transforming large audio archives into searchable knowledge interfaces.
+
 ## System Architecture
 
 ![AI Knowledge Archive System Architecture](docs/ai_knowledge_archive_architecture.png)
