@@ -1,8 +1,8 @@
 # AI Knowledge Archive
 
-Capstone project: AI-assisted archival system for preserving and interacting with large collections of recorded knowledge.
+AI-assisted archival system that converts large collections of recorded lectures and written materials into a searchable knowledge platform using speech transcription, vector search, and retrieval-augmented generation (RAG).
 
-An AI-powered knowledge system designed to transform recorded lectures and written works into a searchable, multilingual knowledge platform using speech transcription, semantic indexing, and retrieval-augmented generation.
+**Core technologies:** speech-to-text • semantic embeddings • vector databases • LLM knowledge retrieval • multimodal AI interface
 
 ## Project Overview
 
