@@ -1,6 +1,6 @@
 # AI Knowledge Archive
 
-AI-assisted archival system that converts large collections of recorded lectures and written materials into a searchable knowledge platform using speech transcription, vector search, and retrieval-augmented generation (RAG).
+Building an AI-assisted knowledge archive that converts large collections of recorded lectures and books into a searchable platform using speech transcription, semantic embeddings, vector databases, and retrieval-augmented generation (RAG).
 
 **Core technologies:** speech-to-text • semantic embeddings • vector databases • LLM knowledge retrieval • multimodal AI interface
 
