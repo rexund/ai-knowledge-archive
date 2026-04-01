@@ -4,7 +4,7 @@
 
 ### Project walkthrough video
 
-[Watch demo video](media/Capstone_Concept_Illustration.mp4)
+[Watch demo video](https://drive.google.com/file/d/1OWFa2W4QxmMAhqXV3mKOdwFG-VwqO1xD/view?usp=sharing)
 
 This short walkthrough demonstrates the semantic retrieval pipeline:
 audio ingestion → transcription → embeddings → vector search → RAG-grounded answer generation.
