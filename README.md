@@ -1,3 +1,24 @@
+---
+
+## Demo
+
+### Project walkthrough video
+
+[Watch demo video](media/demo-video.mp4)
+
+This short walkthrough demonstrates the semantic retrieval pipeline:
+audio ingestion → transcription → embeddings → vector search → RAG-grounded answer generation.
+
+---
+
+## Architecture Overview
+
+![System Architecture](media/architecture/system-overview.png)
+
+![RAG Pipeline](media/architecture/rag-pipeline.png)
+
+---
+
 # AI Knowledge Archive
 
 Building an AI-assisted knowledge archive that converts large collections of recorded lectures and books into a searchable platform using speech transcription, semantic embeddings, vector databases, and retrieval-augmented generation (RAG).
